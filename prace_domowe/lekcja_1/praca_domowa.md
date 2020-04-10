@@ -6,6 +6,6 @@ Skonfiguruj aplikację front-end:
 * Z pomocą html-webpack-plugin dodaj załączhony plik `src/index.html`.
 * Z pomocą `sass-loader` (przy potrzebie innych) dodaj do projektu styli w pliku `src/styles/style.sass` uywając deklaracji import.
 * Dodaj do konfiguracji webpacku `file-loader` w taki sposób żeby z pomocą deklaracji import uzyskać link do obrazka fomatu png(PS: Sprawdzic działanie mozna w następnym kroku).
-* Dodaj do projektu `src/styles/script.js` uywająć deklaracji import żeby skript załączył sekcje z obrazkiem.
+* Dodaj do projektu `src/script.js` używając deklaracji import żeby skrypt załączył sekcję z obrazkiem.
 * Wrzuć apkę na GitHub i opublikuj na GitHub Pages.
 * Prześlij adres repo na maila: [frontend@daftacademy.pl](mailto:frontend@daftacademy.pl).
