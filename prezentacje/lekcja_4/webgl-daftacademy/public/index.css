@@ -1,0 +1,84 @@
+body{
+	position: relative;
+	margin: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+#canvas{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+}
+
+#frameContainer{
+	position: fixed;
+	top: 70px;
+	bottom: 70px;
+	left: 100px;
+	right: 100px;
+}
+
+#frame{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	border: 3px solid white;
+	animation-name: frame-enter;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+#title{
+	position: absolute;
+	z-index: 1;
+	/*font-weight: bold;*/
+	font-style: oblique;
+	font-size: 9rem;
+	color: white;
+	/*color: transparent;*/
+	padding: 2rem 0 0 5.8rem;
+
+	/*-webkit-text-stroke: white;*/
+	/*-webkit-text-stroke-width: 1.5px;*/
+	/*-webkit-background-clip: text;*/
+}
+
+
+#slide{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#content{
+	max-width: 50%;
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+}
+
+@keyframes frame-enter {
+	from {
+		opacity: 0;
+		transform: scale(.8);
+	}
+	to {
+		transform: scale(1);
+		opacity: .7;
+	}
+}
+
+@keyframes frame-exit {
+	from {
+		opacity: .7;
+	}
+	to {
+		transform: scale(1.15);
+		opacity: 0;
+	}
+}
