@@ -29,10 +29,11 @@
   * załadowania produktów
   * nieudane załadowanie produktów
 
-* Prześlij info o gotowej pracy do sprawdzenia: [frontend@daftacademy.pl](mailto:frontend@daftacademy.pl).
-  * Tytuł: `Praca domowa nr 5`
-  * W opisie:
-    * link do githuba
-    * link do github pages
+Prześlij info o gotowej pracy do sprawdzenia: [frontend@daftacademy.pl](mailto:frontend@daftacademy.pl).
+
+* Tytuł: `Praca domowa nr 5`
+* W opisie:
+  * link do githuba
+  * link do github pages
 
 `Deadline oddania pracy to 17 maja.`
